@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5bef005cc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>PR2​ Bootstrap (Vanilla games)</title>
+    <style>
+      .imagen{
+        width: 30px;
+        height: 30px;
+        margin-left: 150px;
+        margin-right: 10px;
+      }
+      .header{
+        margin-top: -8px;
+      }
+      .mar{
+        margin-right: 150px;
+      }
+      .footerabajo{
+        margin-bottom: -7px;
+      }
+    </style>
+</head>
+<body>
+   <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-dark d-flex">
+          <img class="col-1 img-fluid imagen" src="img/logo.svg" alt="logo">
+          <a class="navbar-brand text-light float-start fs-5" href="index.html">Vanilla Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text text-secondary-emphasis mx-auto d-block fs-5" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text mx-auto d-block text-secondary-emphasis fs-5 active" href="indexproyectos.html">TOP 5 Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text mx-auto d-block text-secondary-emphasis fs-5" href="#">A cerca de</a>
+              </li>
+            </ul>
+          </div>
+          <nav class="navbar mar">
+            <form class="container-fluid justify-content-start" role="search">
+            <a href="indexproyectos.html" class="btn text-light me-2 mt-1 fs-5 rounded-0" >PROYECTOS<i class="fa-solid fa-user ms-3" style="color: #f9fafa;"></i></a>
+            </form>
+          </nav>
+          </div>
+      </nav>
+   </header>
+
+  <main>
+    <h1 class="text-start pt-5 px-5 fs-1">Panel de Administración</h1>
+    <div class="text-start p-5 fs-1">
+      <div class="border">
+        <ul class="nav nav-tabs">
+          <li class="nav-item col-6">
+            <a href="indexusuarios.html" class="nav-link fs-5 border-end rounded-0 text-dark">Usuarios</a>
+          </li>
+          <li class="nav-item col-6">
+            <a href="indexproyectos.html" class="nav-link fs-5 rounded-0 bg-secondary">Proyectos</a>
+          </li>
+        </ul>
+        <div class="col-6 mt-5 ms-5">
+          <div class="input-group">
+            <i class="fa-solid fa-magnifying-glass p-2 border border-dark bg-secondary"></i>
+            <input type="text" class="form-control border border-dark" placeholder="Buscador">
+            <i class="fa-solid fa-x border border-dark bg-secondary p-2"></i>
+          </div>
+        </div>
+
+        <div class="p-5">
+          <ul class="nav nav-tabs">
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center"></a>
+            </li>
+            <li class="nav-item col-2">
+              <a href="#" class="nav nav-tabs nav-link fs-5 text-dark rounded-0 text-center">URL Imagen</a>
+            </li>
+            <li class="nav-item col-2">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center">Email</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center">Nombre</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center">Apellidos</a>
+            </li>
+            <li class="nav-item col-2">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center">Fecha</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center">Rol</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center">Estado</a>
+            </li>
+            <li class="nav-item col-1">
+              <a href="#" class="nav-link fs-5 text-dark rounded-0 text-center"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ps-5 pe-5 pb-2">
+            <ul class="nav nav-tabs">
+                <li class="nav-item col-1">
+                  <a href="indexperfil.html"><i class="fa-solid fa-user ms-3 justify-content-center d-flex mt-2 text-dark"></i></a>
+                </li>
+                <li class=" col-2">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">https://google.es</p> 
+                </li>
+                <li class="nav-item col-2">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">email@gmail.com</p> 
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Nombre</p> 
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Apellidos</p> 
+                </li>
+                <li class="nav-item col-2">
+                  <input type="date" class="fs-5 text-dark rounded-0 text-start p-2 col-11 border ms-2 d-flex justify-content-center">
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 me-2">Opción</p>
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Opción</p>
+                </li>
+                <li class="nav-item col-1 fs-3">
+                  <a href="indexperfil.html" class="border border-success bg-success text-decoration-none text-light fs-6 p-2">Actualizar</a>
+                  <a href="#"><i class="fa-solid fa-trash text-danger fs-6 rounded-0 text-center border border-danger p-2"></i></a>
+                </li>
+              </ul>
+        </div>
+
+        <div class="ps-5 pe-5 pb-2 pt-2">
+          <ul class="nav nav-tabs">
+            <li class="nav-item col-1">
+                <a href="indexperfil.html"><i class="fa-solid fa-user ms-3 justify-content-center d-flex mt-2 text-dark"></i></a>
+            </li>
+            <li class=" col-2">
+                <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">https://google.es</p> 
+            </li>
+            <li class="nav-item col-2">
+                <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">email@gmail.com</p> 
+            </li>
+            <li class="nav-item col-1">
+                <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Nombre</p> 
+            </li>
+            <li class="nav-item col-1">
+                <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Apellidos</p> 
+            </li>
+            <li class="nav-item col-2">
+              <input type="date" class="fs-5 text-dark rounded-0 text-start p-2 col-11 border ms-2 d-flex justify-content-center">
+            </li>
+            <li class="nav-item col-1">
+                <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 me-2">Opción</p>
+            </li>
+            <li class="nav-item col-1">
+                <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Opción</p>
+            </li>
+            <li class="nav-item col-1 fs-3">
+              <a href="indexperfil.html" class="border border-success bg-success text-decoration-none text-light fs-6 p-2">Actualizar</a>
+              <a href="#"><i class="fa-solid fa-trash text-danger fs-6 rounded-0 text-center border border-danger p-2"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ps-5 pe-5 pb-2 pt-2">
+            <ul class="nav nav-tabs">
+                <li class="nav-item col-1">
+                  <a href="indexperfil.html"><i class="fa-solid fa-user ms-3 justify-content-center d-flex mt-2 text-dark"></i></a>
+                </li>
+                <li class=" col-2">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">https://google.es</p> 
+                </li>
+                <li class="nav-item col-2">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">email@gmail.com</p> 
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Nombre</p> 
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Apellidos</p> 
+                </li>
+                <li class="nav-item col-2">
+                  <input type="date" class="fs-5 text-dark rounded-0 text-start p-2 col-11 border ms-2 d-flex justify-content-center">
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 me-2">Opción</p>
+                </li>
+                <li class="nav-item col-1">
+                    <p class="fs-5 text-dark rounded-0 text-center border mb-3 p-2 ms-2 me-2">Opción</p>
+                </li>
+                <li class="nav-item col-1 fs-3">
+                  <a href="indexperfil.html" class="border border-success bg-success text-decoration-none text-light fs-6 p-2">Actualizar</a>
+                  <a href="#"><i class="fa-solid fa-trash text-danger fs-6 rounded-0 text-center border border-danger p-2"></i></a>
+                </li>
+              </ul>
+        <div class="mt-5"></div>   
+        </div>
+      </div>
+    </div>
+    <div class="mt-5"></div>
+</main>
+
+  <footer class="footer fixed-bottom footerabajo">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid bg-secondary d-flex">
+        <img class="col-1 img-fluid imagen" src="img/logo.svg" alt="logo">
+        <a class="navbar-brand text-dark float-start fs-5" href="#">FPllefia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text text-dark mx-auto d-block fs-5" aria-current="page" href="#">DAW-Asignatura de Proyectos</a>
+            </li>
+          </ul>
+        </div>
+          <nav class="navbar mar">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text text-dark mx-auto d-block fs-5" aria-current="page" href="#">David Escalona García</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </nav>
+   </footer> 
+</body>
+</html>

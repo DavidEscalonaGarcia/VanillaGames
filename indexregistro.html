@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5bef005cc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>PR2​ Bootstrap (Vanilla games)</title>
+    <style>
+      .imagen{
+        width: 30px;
+        height: 30px;
+        margin-left: 150px;
+        margin-right: 10px;
+      }
+      .header{
+        margin-top: -8px;
+      }
+      .mar{
+        margin-right: 150px;
+      }
+      .footerabajo{
+        margin-bottom: -7px;
+      }
+    </style>
+</head>
+<body>
+   <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-dark d-flex">
+          <img class="col-1 img-fluid imagen" src="img/logo.svg" alt="logo">
+          <a class="navbar-brand text-light float-start fs-5" href="index.html">Vanilla Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text text-light mx-auto d-block fs-5" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text mx-auto d-block text-secondary-emphasis fs-5" href="indexproyectos.html">TOP 5 Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text mx-auto d-block text-secondary-emphasis fs-5" href="#">A cerca de</a>
+              </li>
+            </ul>
+          </div>
+            <nav class="navbar mar">
+              <form class="container-fluid justify-content-start" role="search">
+                <a href="indexincio.html" class="btn btn-success bg-light-green me-2 mt-1 fs-5 rounded-0 bg-green">Iniciar Sesión<i class="fa-solid fa-right-to-bracket m-1"></i></a>
+            </form>
+            </nav>
+          </div>
+      </nav>
+   </header>
+
+  <main>
+    <h1 class="text-center p-5 fs-1">Registro</h1>
+    <div class="d-flex justify-content-center">
+        <div class="border w-25">
+    <form class="m-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre:</label>
+            <input type="nombre" class="form-control" id="exampleInputNombre1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Apellidos:</label>
+            <input type="Apellidos" class="form-control" id="exampleInputApellidos1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="d-flex justify-content-center">
+           <a href="indexincio.html" class="btn btn-primary text-center btn rounded-0 mt-3 col-12">Enviar</a>  
+        </div>
+        </div>
+    </div>
+    </form>    
+  </main>
+
+  <footer class="footer fixed-bottom footerabajo">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid bg-secondary d-flex">
+        <img class="col-1 img-fluid imagen" src="img/logo.svg" alt="logo">
+        <a class="navbar-brand text-dark float-start fs-5" href="#">FPllefia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text text-dark mx-auto d-block fs-5" aria-current="page" href="#">DAW-Asignatura de Proyectos</a>
+            </li>
+          </ul>
+        </div>
+          <nav class="navbar mar">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text text-dark mx-auto d-block fs-5" aria-current="page" href="#">David Escalona García</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </nav>
+   </footer> 
+</body>
+</html>
